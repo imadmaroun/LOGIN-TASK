@@ -1,0 +1,58 @@
+.Login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.login-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.email-field, .password-field, .show-pass-field, .submit-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-label, .password-label, .show-pass-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.email-input, .password-input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.show-pass-field {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.show-pass-check {
+    margin: 0;
+}
+
+.login-btn {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
